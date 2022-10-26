@@ -12,7 +12,7 @@
     {id: 1, name: 'Kyiv', link: '/'},
     {id: 2, name: 'Kharkiv', link: '/kharkiv'},
     {id: 3, name: 'Lviv', link: '/lviv'},
-    {id: 4, name: 'Odessa', link: '/odessa'},
+    {id: 4, name: 'Odesa', link: '/odesa'},
     {id: 5, name: 'Kherson', link: '/kherson'},
   ]
 </script>
