@@ -1,10 +1,12 @@
 <template>
-  <h2 class="mb-2">Weather App</h2>
-  <nav class="mb-8">
-    <NuxtLink v-for="city of citys" :key="city.id" :to="city.link" class="m-1 py-1 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
-      {{city.name}}
-    </NuxtLink>
-  </nav>
+  <div class="w-full py-8">
+    <h2 class="mb-2">Weather App</h2>
+    <nav class="flex">
+      <NuxtLink v-for="city of citys" :key="city.id" :to="city.link" class="mr-1 py-1 px-6 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
+        {{city.name}}
+      </NuxtLink >
+    </nav>
+  </div>
 </template>
 
 <script setup>
