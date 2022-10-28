@@ -6,7 +6,6 @@
         <h3 class="text-center">Please select another date.</h3>
         <button @click="closePopup()" class="relative left-1/2 -translate-x-1/2 mt-8 py-1 px-6 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">Close</button>
       </div>
-      
     </div>
     <div class="flex items-start h-60 w-full">
       <div class="flex-auto h-full mr-8">
